@@ -1,7 +1,7 @@
 ---
 title: "Schema extensions"
 titleSuffix: "Configuration Manager"
-description: "Extend the Active Directory schema to support System Center Configuration Manager."
+description: "Extend the Active Directory schema to support Configuration Manager."
 ms.date: 02/7/2017
 ms.prod: configuration-manager
 ms.technology: configmgr-other
@@ -12,9 +12,9 @@ ms.author: mstewart
 manager: dougeby
 ms.collection: M365-identity-device-management
 ---
-# Schema extensions for System Center Configuration Manager
+# Schema extensions for Configuration Manager
 
-*Applies to: System Center Configuration Manager (Current Branch)*
+*Applies to: Configuration Manager (Current Branch)*
 
 You can extend the Active Directory schema to support Configuration Manager. This edits a forest's Active Directory schema to add a new container and several attributes that Configuration Manager sites use to publish key information in Active Directory where clients can securely use it. This information can simplify the deployment and configuration of clients and helps clients locate site resources like servers with deployed content or that provide different services to clients.  
 
@@ -24,7 +24,7 @@ Before you [extend the Active Directory schema](https://docs.microsoft.com/sccm/
 
 ## Considerations for extending the Active Directory schema for Configuration Manager  
 
--   The Active Directory schema extensions for System Center Configuration Manager are unchanged from those that Configuration Manager 2007 and Configuration Manager 2012 use. If you previously extended the schema for either version, you do not have to extend the schema again.  
+-   The Active Directory schema extensions for Configuration Manager are unchanged from those that Configuration Manager 2007 and Configuration Manager 2012 use. If you previously extended the schema for either version, you do not have to extend the schema again.  
 
 -   Extending the schema is a forest-wide, one-time, irreversible action.  
 
